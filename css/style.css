@@ -567,7 +567,17 @@ hr.bold {
 ============================ */
 
 
+/*============================
+--- Modal
+============================*/
+.modal-dialog {
+  padding-top: 10%;
+}
 
+/*judul*/
+.title-main{
+  background-color: rgba(0, 0, 0, 0.6)
+}
 
 /* ===========================
 --- Services
@@ -575,7 +585,11 @@ hr.bold {
 .service-box {
 	background: #fff;
 	border-bottom: 2px solid #f7f7f7;
-	padding: 40px 20px;
+	/*padding: 40px 20px;*/
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 40px
 }
 
 .service-box:hover {
@@ -589,6 +603,18 @@ hr.bold {
 	margin-bottom: 20px;
 }
 
+.image-box {
+  height: auto;
+}
+
+.service-image {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  margin-bottom: 20px;
+  /*transform: scale(10);*/
+}
+
 .service-desc h5 {
 	text-transform: uppercase;
 	font-weight: 700;
@@ -596,6 +622,13 @@ hr.bold {
 	font-size: 18px;
 	margin-bottom: 10px;
 }
+
+.service-desc-p {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: left;
+}
+
 .service-desc .divider-header {
 	margin-bottom: 30px;
 }
@@ -1047,4 +1080,8 @@ a.btn:focus{
 	.navbar.navbar-custom.navbar-fixed-top {
 		margin-bottom: 30px;
 	}
+}
+
+.fafa {
+  margin-right: 5px;
 }

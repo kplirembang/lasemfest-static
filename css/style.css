@@ -165,7 +165,7 @@ blockquote strong {
 /* ------- Navigation ------------ */
 #navigation {
 	background: #fff;
-	z-index: 9999;
+	z-index: 999;
 	width:100%;
     box-sizing:border-box;
 	border-bottom: 1px solid #eee;

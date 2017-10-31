@@ -571,7 +571,7 @@ hr.bold {
 --- Modal
 ============================*/
 .modal-dialog {
-  padding-top: 10%;
+  padding-top: 0%;
 }
 
 /*judul*/
@@ -596,7 +596,7 @@ hr.bold {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-	margin-top: -20px;
+	/*margin-top: -20px;*/
 }
 
 .service-icon {

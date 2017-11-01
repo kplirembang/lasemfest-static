@@ -14,5 +14,9 @@
     max-width: 100%;
 }
 
+.modal-body strong{
+    margin-left: 10px;
+}
+
 #facebook-icon {color: #3B5998}
 #instagram-icon {color: #cd486b}
